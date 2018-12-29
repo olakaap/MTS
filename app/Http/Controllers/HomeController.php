@@ -23,6 +23,11 @@ class HomeController extends Controller
      */
     public function index()
     {
+
+        //$role=Role::create(['name'=>'administrator']);
+      //  $permission=Permission::create(['name'=>'hvjh']);
+
+
         return view('home');
     }
 }
